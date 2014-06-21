@@ -39,8 +39,8 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
     	alert (id);
-    	alert(typeof device.model);
-    	alert(typeof window.device.model);
+    	alert(typeof device);
+    	alert(typeof window.device);
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
