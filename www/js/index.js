@@ -40,7 +40,7 @@ var app = {
     receivedEvent: function(id) {
     	alert (id);
     	alert(typeof device.model);
-    	alert(typeof windod.device.model);
+    	alert(typeof window.device.model);
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
